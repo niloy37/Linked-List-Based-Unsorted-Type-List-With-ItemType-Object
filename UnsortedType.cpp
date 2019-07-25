@@ -88,6 +88,7 @@ void UnsortedType::resetList(){
 	currentPos = NULL;
 }
 ItemType UnsortedType::getNextItem(){
+	ItemType *item;
 	if(currentPos == NULL){
 		currentPos = listData;
 	}
