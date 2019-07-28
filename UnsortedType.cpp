@@ -72,7 +72,7 @@ listData = listData->next;
 }
 
 else {
-	while(item.compareTo(location->info)!= EQUAL)
+	while(item.compareTo(location->next->info)!= EQUAL)
 		location = location->next;
 
 	tempLocation = location->next;
