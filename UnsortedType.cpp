@@ -103,7 +103,7 @@ ItemType UnsortedType::getNextItem(){
 UnsortedType:: ~UnsortedType() 
 {
 	NodeType *tempPtr;
-	while(location != NULL){
+	while(listData != NULL){
 		tempPtr = listData;
 		listData = listData->next;
 		delete tempPtr;
